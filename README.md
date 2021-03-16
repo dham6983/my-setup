@@ -1,5 +1,5 @@
 # Few Setup I used for in my bash profile 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dham6983/my-setup/CI%20for%20Setup%20file?label=my-build&logo=Github) ![GitHub repo size](https://img.shields.io/github/repo-size/dham6983/my-setup?style=plastic)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dham6983/my-setup/CI%20for%20Setup%20file?label=my-build&logo=Github&style=plastic) ![GitHub repo size](https://img.shields.io/github/repo-size/dham6983/my-setup?style=plastic)
 ## Finding git branch during runtime
 ```bash
 git_branch() 
