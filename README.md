@@ -4,7 +4,7 @@
 git_branch() \
 { \
  git branch 2>/dev/null | grep '^*' | colrm 1 2 \
-} \
+} 
 
 # for noce view of git log
 alias graph="git log --all --decorate --oneline --graph"
