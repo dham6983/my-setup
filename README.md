@@ -1,8 +1,10 @@
 ## Few Setup I used for in my bash profile 
 # finding git branch during runtime
-git_branch() {
-  git branch 2>/dev/null | grep '^*' | colrm 1 2
-}
+
+git_branch() \
+{ \
+ git branch 2>/dev/null | grep '^*' | colrm 1 2 \
+} \
 
 # for noce view of git log
 alias graph="git log --all --decorate --oneline --graph"
