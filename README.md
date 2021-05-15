@@ -17,3 +17,7 @@ export PS1="[\d \t\[\033[36m\] \u@\h:\[\033[32m\]\w\[\033[33m\] \$(git_branch)\[
 alias graph="git log --all --decorate --oneline --graph"
 ```
 
+## GIT_SSH_COMMAND usage
+```
+GIT_SSH_COMMAND="ssh -i ~/.ssh/personal-learning-id-rsa" git push origin main
+```
